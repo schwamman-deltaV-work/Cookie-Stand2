@@ -1,0 +1,142 @@
+form {
+    margin-top: 150px;
+    margin-left: 25px;
+}
+
+
+table {
+    font-family: 'Bahianita', cursive;
+    margin-top: 200px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: #e2dccd;
+    margin-left: 25px;
+    margin-right: 25px;   
+}
+
+thead {
+    background-color: #4e493d;
+    
+}
+
+th {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 3px solid #e2dccd;
+    letter-spacing: .08em;
+}
+
+th:first-child {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #d8a968;
+}
+
+tr:nth-child(odd) {
+    background-color: #987645;
+}
+
+tr:nth-child(even):hover {
+    background-color: hsla(35, 59%, 63%, 0.74);
+}
+
+tr:nth-child(odd):hover {
+    background-color: hsla(35, 38%, 43%, 0.74);
+}
+
+td {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    letter-spacing: .08em;
+}
+
+td:first-child {
+    font-size: 1.2em;
+    letter-spacing: .08em;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-weight: bold;
+    background-color: #4e493d;
+    border-right: 3px solid #e2dccd;
+    width: 120px;
+
+}
+
+td:last-child {
+    font-weight: bold;
+}
+
+tr:last-child {
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+fieldset {
+    background-color: #987645;
+    width: 300px;
+    font-family: 'Bahianita', cursive
+    padding: 10px;
+}
+
+fieldset h2 {
+    font-size: 1.8em;
+    font-weight: bolder;
+    margin-top: 15px;
+    letter-spacing: .08em;
+}
+
+fieldset div {
+    margin: 15px;
+}
+
+label p {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    letter-spacing: .08em;
+}
+
+label input {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#footer {
+    background-color: #4e493d;
+    border-top: 3px solid #e2dccd;
+}
+
+#submitForm {
+    margin-top: 15px;
+}
+
+#formLeft {
+    float: left;
+    width: 28%;
+}
+
+#table {
+    float: left;
+    width: 70%;
+    margin-left: 0px;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+#locationForm {
+    
+}
+
+
+
+
+
+

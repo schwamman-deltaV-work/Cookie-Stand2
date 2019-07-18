@@ -1,1 +1,1 @@
-# Cookie-Stand2
+# cookie-stand

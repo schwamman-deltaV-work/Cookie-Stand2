@@ -1,0 +1,194 @@
+@font-face {
+    font-family: "Lost Fish";
+    src: url("../fonts/Lost Fish.otf");
+  }
+
+nav {
+    background-color: #a74826;
+    height: auto;
+    color: #e2dccd;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;;
+}
+
+nav h1 {
+    font-size: 2.4em;
+    float: left;
+    margin: 30px;
+    font-family: "Lost Fish";
+    
+}
+
+nav ul li a{
+    float: right;
+    display: block;
+    padding: 20px;
+    margin-top: 20px;
+    color: #e2dccd;
+    text-decoration: none;
+    font-family: "Lost Fish";
+}
+
+nav ul li a:hover {
+    color: #d0c7ae;
+}
+
+body {
+    background-color: #acaba8;
+    height: auto;
+    color: #acaba8;
+    text-align: center;
+    font-family: 'Bahianita', cursive;
+}
+
+body h2 {
+    font-size: 3.5rem;
+    margin-bottom: 30px; 
+}
+
+footer {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #a74826;
+    height: 70px;
+}
+
+footer a {
+    color: #e2dccd;
+    font-family: "Lost Fish";
+    text-decoration: none;
+    float: right;
+    margin: 25px;
+}
+
+#footer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about {
+    background-color: #4e493d;
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+}
+
+
+#about hr {
+    width: 90%;
+    border: 2px solid #acaba8;
+    border-radius: 2px;
+}
+
+#about p {
+    font-size: 1.8rem;
+    padding: 75px 75px 45px 75px;
+}
+
+#about img {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#cookie {
+    background-color: #4e493d;
+    height: 1800px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+}
+
+#left {
+    float:left;
+    width: 50%;
+    margin-top: 75px;
+}
+
+#right {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 60px;
+    text-align: center;
+    padding: 30px;
+}
+
+#merchandise {
+    clear: both;
+    padding-top: 60px;
+}
+
+#merchandise hr {
+    border-radius: 2px;
+    border: 2px solid #acaba8;
+    width: 90%;
+}
+
+
+#cookie h3 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#cookie p {
+    font-size: 1.8rem;
+    line-height: 1.2em;
+}
+
+#cookie img {
+    width: 75%;
+}
+
+#clearDiv {
+    clear: both;
+}
+
+#right h4 {
+    margin-top: 30px;
+    font-size: 2rem;
+} 
+
+#locations {
+    background-color: #4e493d;
+    height: 2500px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
+}
+
+#googleMap {
+    width:80%;
+    height: 400px;
+    margin-left: 60px;
+    z-index: 1;
+
+}
+
+#locations h3 {
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+#locations h4 {
+    font-size: 2.5rem;
+}
+
+#locations p {
+    font-size: 2rem;
+}
+
+.family {
+    padding-top: 30px;
+    
+}
