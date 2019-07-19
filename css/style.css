@@ -100,7 +100,7 @@ footer a {
 
 #cookie {
     background-color: #4e493d;
-    height: 1800px;
+    height: auto;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -188,7 +188,6 @@ footer a {
     font-size: 2rem;
 }
 
-.family {
-    padding-top: 30px;
-    
+.shirt {
+    padding: 60px;
 }
