@@ -159,7 +159,7 @@ footer a {
 
 #locations {
     background-color: #4e493d;
-    height: 2500px;
+    height: auto;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -167,11 +167,12 @@ footer a {
 }
 
 /* you get the point. Problem was lack of CSS for each map */
-#googleMap1, #googleMap2, #googleMap3 {
+#googleMap1, #googleMap2, #googleMap3, #googleMap4, #googleMap5 {
     width:80%;
     height: 400px;
     margin-left: 60px;
     z-index: 1;
+    margin-bottom: 60px;
 
 }
 
